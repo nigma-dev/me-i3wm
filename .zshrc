@@ -10,7 +10,7 @@ COMPLETION_WAITING_DOTS="true"
 
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-plugins=( git zsh-completions flutter sdk archlinux gradle gitignore colored-man-pages )
+plugins=(git zsh-completions flutter sdk archlinux gradle gitignore colored-man-pages adb)
 
 autoload -U compinit && compinit
 
